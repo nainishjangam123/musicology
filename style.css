@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0px 80px;
+    margin: 0 auto;
+}
+
+.main-header {
+    background-color: #303030;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 0px;
+}
+
+header .nav {
+    display: flex;
+    gap: 50px;
+}
+
+header .nav li {
+    list-style-type: none;
+}
+
+header .nav li {
+    list-style-type: none;
+}
+
+header .nav li a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #fff;
+    font-size: 25px;
+}
+
+
+/* SLIDER */
+.main-slider {
+    position: relative;
+}
+
+.slider-img {
+    width: 100%;
+    display: flex;
+}
+
+.slider-description {
+    position: absolute;
+    width: 635px;
+    bottom: 60px;
+    /* transform: translate(0, -50%); */
+}
+
+.slider-description h2 {
+    font-weight: 700;
+    font-size: 125px;
+}
+
+.slider-description p {
+    font-weight: 400;
+    font-size: 30px;
+    padding: 0 0 45px 0;
+}
+
+.slider-description a {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 30px;
+    background-color: #e8631c;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 78px;
+    border-radius: 4px;
+    display: inline-block;
+    width: fit-content;
+}
+
+/* dance tour */
+.dance-tour-main {
+    background-image: url('./img/bg-dance.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.dance-tour .cards {
+    display: flex;
+    gap: 85px;
+    padding-top: 100px;
+
+}
+
+.dance-tour .card {
+    width: 33.33%;
+    background-color: #303030;
+}
+
+.dance-tour .card img {
+    padding-bottom: 20px;
+}
+
+.dance-tour {
+    padding: 100px 0;
+}
+
+.heading {
+    font-size: 75px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.sub-heading {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.dance-tour-main-2 {
+    background-image: url('./img/backgraund-balck-img.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.dance-tour {
+    padding: 100px 0;
+}
+
+.heading {
+    font-size: 75px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.sub-heading {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/* pricing-main */
+
+.pricing-main {
+    background-image: url(./img/backgraund-balck-img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.pricing {
+    padding: 100px 0px;
+}
+
+.heading {
+    font-size: 75px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.pricing {
+    text-align: center;
+}
+
+.sub-heading {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.pricing .cards {
+    display: flex;
+    gap: 85px;
+    padding-top: 100px;
+
+}
+
+.pricing .card {
+    width: 33.33%;
+    background-color: #e8631c;
+    border-radius: 20px;
+    padding: 0 0 25px 0;
+}
+
+.pricing .card img {
+    padding: 50px 0;
+}
+
+.pricing a {
+    background-color: #303030;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    padding: 14px 122px;
+    display: inline-block;
+}
+
+.card h5 {
+    font-size: 37px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card p {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.amazingtext-h5 {
+    font-size: 50px;
+}
+
+/* AMAZING-main */
+.amazingdance,
+.bestdance {
+    display: flex;
+}
+
+.amazingtext,
+.amazingimg,
+.bestimg,
+.besttext {
+    width: 50%;
+}
+
+.amazingtext {
+    background-image: url(./img/amazing-right.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.besttext {
+    background-image: url(./img/amazing-left.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.container-2 {
+    padding: 100px 0px;
+}
+
+.heading {
+    font-size: 75px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.sub-heading {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+/* Our-Statistics */
+
+.Our-Statistics {
+    background-image: url(./img/backgraund-balck-img.png);
+    background-repeat: no-repeat;
+}
+
+.Our-Stats-2 {
+    padding-top: 195px;
+    display: block;
+    text-align: center;
+    width: 33.33%
+}
+
+.Our-Stats {
+    gap: 182px;
+    display: flex;
+}
+
+.Our-Stats-2 h2 {
+    padding-top: 145px;
+    padding-top: 115px;
+    font-size: 66.84px;
+
+}
+
+.sub-heading {
+    text-transform: uppercase;
+}
+
+.sub-heading {
+    font-size: 30px;
+}
+
+.Our-Stats-2 p {
+    font-size: 41.67px;
+}
+
+/* herbert-simo */
+
+.herbert-simo {
+    background-image: url(./img/HERBERT-SIMON-MIG.png);
+    background-repeat: no-repeat;
+    padding: 347px 188px;
+}
+
+/* SUBSCRIBE */
+
+.subscribe-main {
+    background-image: url(./img/subscribe.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.subscribe-main p,
+h5 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.subscribe-main h5 {
+    font-size: 58px;
+    text-align: center;
+}
+
+.sub-heading-a {
+    text-decoration: none;
+    font-size: 20px;
+}
